@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carrito de compra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="../css/carrito.css">
+  </head>
+  <body>
+    <header class="pb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
+    
+            <div class="container-fluid">
+        
+              <a class="navbar-brand" href="#">
+                <img src="../img/telefono-inteligente.logo.png" alt="Imagen logo" width="30" height="24">
+              </a>
+        
+              <a class="navbar-brand" href="#">TODO CELULARES</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../Principal.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cuenta
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-white text-bg-dark" href="../pages/Login.html">Login</a></li>
+                      <li> <a class="dropdown-item text-white text-bg-dark" href="../pages/Registro.html">Registro</a></li> 
+                    </ul> 
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/Nosotros.html">Nosotros </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/carrito.html">Carrito  <img src="../img/carro-de-la-compra.png" alt="foto carrito"></a>
+                       </li> 
+                </ul>
+                
+                <form class="d-flex" role="buscar">
+                  <input class="form-control me-2" type="buscar" placeholder="Buscar..." aria-label="buscar">
+                  <button type="button" class="btn text-white"><img src="../img/lupa.png" alt="fpto lupa"></button>
+                </form>
+              </div>
+            </div>
+          
+          </nav>
+
+
+        
+    </header>
+    <main>
+        <p class="text-lg-center fs-2 fw-bolder  font-monospace text-decoration-underline mt-5 letra">CARRITO DE COMPRA</p>    
+        <table class="d-flex justify-content-center table table-striped table-responsive-lg table-bordered">
+            <tr>
+            <td>&nbsp;</td>
+            <th>Producto</th>
+            <th>Unidades</th>
+            <th>Marca</th> 
+            <th>Color</th>
+            <th>Valor</th>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><img src="../img/producto1.jpeg" alt="Iphone13" class="imagenes"></td>
+              <td>Celular</td>
+              <td>1</td>
+              <td>Apple</td>
+              <td>Morado</td>
+              <td>$730.999</td>
+              <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+            </tr>
+            <tr>
+                <td><img src="../img/producto2.jpeg" alt="Smart Wacht" class="imagenes"></td>
+                <td>Reloj</td>
+                <td>1</td>
+                <td>Apple</td>
+                <td>Rosado</td>
+                <td>$63.9120</td>
+                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+
+            </tr>
+            <tr>
+                <td><img src="../img/producto5.jpeg" alt="Auriculares" class="imagenes"></td>
+                <td>Auriculares</td>
+                <td>1</td>
+                <td>Apple</td>
+                <td>Blanco</td>
+                <td>$22.090</td>
+                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+            </tr>
+            <tr>
+                <td><img src="../img/xiaomi.jpeg" alt="Celular"class="imagenes"></td>
+                <td>Celular</td>
+                <td>1</td>
+                <td>Xiaomi</td>
+                <td>Azul</td>
+                <td>$80.000</td>
+                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+            </tr>
+            <tr>
+                <td colspan="6" class="text-lg-center fs-2 table-success">Total a pagar:</td>
+                <td class="fs-4">$380.000</td>
+            </tr> 
+          </table>
+        <div class="grid text-center">
+        <a href="../Principal.html"><button type="button" class="btn btn-info g-col-6 m-sm-4">Seguir Comprando</button></a>
+       <a href="../pages/error.html"> <button type="button" class="btn btn-success g-col-6 m-sm-4">COMPRAR</button></a>
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center text-md-left">
+                     <div class="row text-center text-md-left">
+                             <div class="col-md-3 col-lg-3 col-xl-4 mx-auto mt-3">
+                                  <h5 class="letra">TODO CELULARES</h5>
+                                  <p>
+                                    <img src="../img/telefono-inteligente.png" alt="foto celular">
+                                  </p>
+                              </div>
+      
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h5 class="letra">INFORMACION</h5>
+                
+                             <p class="text-white">
+                                 <img src="../img/mapas-de-google.png" alt="imagen de mapa"> Cordoba y 25 de Mayo- San Miguel de Tucumán
+                              </p>
+                              <p class="text-white">
+                                 <img src="../img/llamada.png" alt="foto telefono"> +54 9 381 4958878
+                              </p>
+                            <p class="text-white">
+                                 <img src="../img/gmail.png" alt="logo correo"> venta.cel@gmail.com
+                             </p> 
+                       </div>
+      
+                       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+                        <h5 class="letras">REDES SOCIALES</h5>
+                      
+                            <div class="text-center align-content-center">       
+                                <a href="https://www.instagram.com/rollingcodeschool/"><img src="../img/instagram.png" alt="logo instagram"></a>
+                                <a href="https://www.facebook.com/RollingCodeSchool/"><img src="../img/facebook.png" alt="logo facebook"></a>
+                                <a href="https://twitter.com/rollingcodeok"><img src="../img/gorjeo.png" alt="logo twitter"></a>
+                            </div>   
+                     </div>  
+                      
+                </div>
+           </div>
+      
+        </footer>
+
+  </body>
+</html>

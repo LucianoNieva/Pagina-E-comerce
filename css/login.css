@@ -1,0 +1,56 @@
+body{
+    background-color: #F4F6F7;
+
+
+}
+
+
+
+.bg {
+    background-image: url(../img/celulares.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: 2000px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    
+}
+#navbarSupportedContent a{
+    color: white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 1px solid #fcb941 ;
+    
+}
+   
+
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.letras{
+    color: #fcb941;
+}

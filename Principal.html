@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/principal.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
+    
+        <div class="container-fluid">
+    
+          <a class="navbar-brand" href="#">
+            <img src="./img/telefono-inteligente.logo.png" alt="Imagen logo" width="30" height="24">
+          </a>
+    
+          <a class="navbar-brand" href="#">TODO CELULARES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Principal.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cuenta
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-white text-bg-dark" href="./pages/Login.html">Login</a></li>
+                  <li> <a class="dropdown-item text-white text-bg-dark" href="./pages/Registro.html">Registro</a></li> 
+                </ul> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Nosotros.html">Nosotros </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/carrito.html">Carrito  <img src="./img/carro-de-la-compra.png" alt="foto carrito"></a>
+                   </li> 
+            </ul>
+            
+            <form class="d-flex" role="buscar">
+              <input class="form-control me-2" type="buscar" placeholder="Buscar..." aria-label="buscar">
+              <button type="button" class="btn text-white"><img src="./img/lupa.png" alt="fpto lupa"></button>
+            </form>
+          </div>
+        </div>
+      
+      </nav>
+      
+</header>
+
+    
+    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/carrusel1.jpeg" class="md-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel3.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel4.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel5.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+    <section class="container">
+            <div class="row mt-4 mb-1">
+                <h1 class="text-center fs-4">NO TE PIERDAS ESTAS OFERTAS</h1>
+            </div>
+            <div class="row row-cols-3 g-4">
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="./img/producto1.jpeg" alt="Apple Iphone 14" class="img-fluid d-block mx-auto w-100">
+                        <span class="heart-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <div class="row btns w-100 mx-auto text-center">
+                            <button type="button" class="col-6 py-1">
+                             <a href="./pages/carrito.html" class="link-light text-decoration-none"> <i class="fa fa-cart-plus"> </i> Agregar </a>  
+                            </button>
+                            <button type="button" class="col-6 py-1">
+                               <a href="./pages/detalles.html" class="link-light text-decoration-none"> <i class="fa fa-binoculars"></i> Detalle </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info p-3">
+                        <span class="product-type">Electronicos & Accesorios</span>
+                        <a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple iPhone 14 Pro Max 512gb</a>
+                        <div class="product-price2 text-decoration-line-through">$ 859.999</div>
+                        <span class="product-price fw-bold">$ 730.999</span>
+                        <span class="discount fw-bold">15% OFF</span>
+                        <div class="freeshipping fw-bold">Envío Gratis</div>
+                        <div class="rating d-flex mt-1">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span>(50 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="./img/producto2.jpeg" alt="Apple Watch Series 3" class="img-fluid d-block mx-auto w-100">
+                        <span class="heart-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <div class="row btns w-100 mx-auto text-center">
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/carrito.html" class="link-light text-decoration-none"> <i class="fa fa-cart-plus"> </i> Agregar </a>  
+                            </button>
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/detalles.html" class="link-light text-decoration-none"> <i class="fa fa-binoculars"></i> Detalle </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info p-3">
+                        <span class="product-type">Electronicos & Accesorios</span>
+                        <a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch Series 3</a>
+                        <div class="product-price fw-bold">$ 63.912</div>
+                        <div class="product-cuotas">Hasta 3 cuotas sin interés</div>
+                        <div class="freeshipping fw-bold fas fa-bolt">FULL</div>
+                        <div class="rating d-flex mt-1">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>(108 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="./img/producto3.jpeg" alt="Apple MacBook Pro" class="img-fluid d-block mx-auto w-100">
+                        <span class="heart-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <div class="row btns w-100 mx-auto text-center">
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/carrito.html" class="link-light text-decoration-none"> <i class="fa fa-cart-plus"> </i> Agregar </a>  
+                            </button>
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/detalles.html" class="link-light text-decoration-none"> <i class="fa fa-binoculars"></i> Detalle </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info p-3">
+                        <span class="product-type">Electronicos & Accesorios</span>
+                        <a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple McBook Pro - 14" - 16GB RAM - 512GB SSD</a>
+                        <div class="product-price2 text-decoration-line-through">$ 598.999</div>
+                        <span class="product-price fw-bold">$ 569.050</span>
+                        <span class="discount fw-bold">5% OFF</span>
+                        <div class="freeshipping fw-bold">Envío gratis</div>
+                        <div class="rating d-flex mt-1">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span>(23 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="./img/producto4.jpeg" alt="Tablet Lenovo Yoga" class="img-fluid d-block mx-auto w-100">
+                        <span class="heart-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <div class="row btns w-100 mx-auto text-center">
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/carrito.html" class="link-light text-decoration-none"> <i class="fa fa-cart-plus"> </i> Agregar </a>  
+                            </button>
+                            <button type="button" class="col-6 py-1">
+                                 <a href="./pages/detalles.html" class="link-light text-decoration-none" id="boton"> <i class="fa fa-binoculars"></i> Detalle </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info p-3">
+                        <span class="product-type">Electronicos & Accesorios</span>
+                        <a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Lenovo - Yoga Tablet - 11" - 4 GB RAM - 128 GB SSD</a>
+                        <span class="product-price fw-bold">$ 71.799</span>
+                        <div class="freeshipping fw-bold">Envío Gratis</div>
+                        <div class="freeshipping fas fa-bolt">FULL</div>
+                        <div class="rating d-flex mt-1">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span>(17 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="./img/producto5.jpeg" alt="Apple AirPods" class="img-fluid d-block mx-auto w-100">
+                        <span class="heart-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <div class="row btns w-100 mx-auto text-center">
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/carrito.html" class="link-light text-decoration-none"> <i class="fa fa-cart-plus"> </i> Agregar </a>  
+                            </button>
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/detalles.html" class="link-light text-decoration-none"> <i class="fa fa-binoculars"></i> Detalle </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info p-3">
+                        <span class="product-type">Electronicos & Accesorios</span>
+                        <a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple AirPods con estuche de carga</a>
+                        <span class="product-price fw-bold">$ 22.090</span>
+                        <div class="product-cuotas">Hasta 6 cuotas sin interés</div>
+                        <div class="freeshipping fw-bold fas fa-bolt">FULL</div>
+                        <div class="rating d-flex mt-1">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span>(31 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="./img/producto6.jpeg" alt="Samsung Galaxy Z Flip" class="img-fluid d-block mx-auto w-100">
+                        <span class="heart-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <div class="row btns w-100 mx-auto text-center">
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/carrito.html" class="link-light text-decoration-none"> <i class="fa fa-cart-plus"> </i> Agregar </a>  
+                            </button>
+                            <button type="button" class="col-6 py-1">
+                                <a href="./pages/detalles.html" class="link-light text-decoration-none"> <i class="fa fa-binoculars"></i> Detalle </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info p-3">
+                        <span class="product-type">Electronicos & Accesorios</span>
+                        <a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Samsung - Samsung Galaxy Z Flip 128 GB</a>
+                        <div class="product-price2 text-decoration-line-through">$ 208.499</div>
+                        <span class="product-price fw-bold">$ 177.225</span>
+                        <span class="discount fw-bold">15% OFF</span>
+                        <div class="product-cuotas">Hasta 12 cuotas sin interés</div>
+                        <div class="freeshipping fw-bold">Envío Gratis</div>
+                        <div class="rating d-flex mt-1">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span>(11 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div>
+        <img src="./img/publicidad1.gif" class="w-100 mt-2" alt="">
+    </div>
+    <section class="container">
+            <div class="row mt-4 mb-1">
+              <a href="./pages/Detalle de productos.html" class="link-dark text-decoration-none"> <h1 class="text-center fs-4">COMPRÁ POR MARCA</h1></a> 
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/samsung.jpeg" class="card-img-top" alt="...">
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">SAMSUNG</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/apple.jpeg" class="card-img-top" alt="...">
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">APPLE</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/motorola.jpeg" class="card-img-top" alt="...">
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">MOTOROLA</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col py-2">
+                        <div class="card">
+                            <img src="./img/xiaomi.jpeg" class="card-img-top" alt="...">
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">XIAOMI</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col py-2">
+                        <div class="card">
+                            <img src="./img/lg.jpeg" class="card-img-top" alt="...">
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">LG</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col py-2">
+                        <div class="card">
+                            <img src="./img/huawei.jpeg" class="card-img-top" alt="...">
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">HUAWEI</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div>
+        <img src="./img/publicidad2.gif" class="w-100 mt-2" alt="">
+    </div>
+    <section class="container">
+            <div class="row mt-4 mb-1">
+                <h1 class="text-center fs-4">COMPRÁ POR PRECIOS</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <h5 class="text-center fs-6">HASTA</h5>
+                            <h2 class="text-center">$10.000</h2>
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">Ver productos</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h5 class="text-center fs-6">HASTA</h5>
+                            <h2 class="text-center">$30.000</h2>
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">Ver productos</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h5 class="text-center fs-6">MAS DE</h5>
+                            <h2 class="text-center">$40.000</h2>
+                            <hr>
+                            <div class="card-body">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title text-center">Ver productos</h5>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="d-none d-sm-block d-sm-none d-md-block">
+        <img src="./img/publicidad3.jpg" class="w-100 mt-2" alt="">
+    </div>
+
+
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center text-md-left">
+                     <div class="row text-center text-md-left">
+                             <div class="col-md-3 col-lg-3 col-xl-4 mx-auto mt-3">
+                                  <h5 class="letra">TODO CELULARES</h5>
+                                  <p>
+                                    <img src="./img/telefono-inteligente.png" alt="foto celular">
+                                  </p>
+                              </div>
+      
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h5 class="letra">INFORMACION</h5>
+                
+                             <p class="text-white">
+                                 <img src="./img/mapas-de-google.png" alt="imagen de mapa"> Cordoba y 25 de Mayo- San Miguel de Tucumán
+                              </p>
+                              <p class="text-white">
+                                 <img src="./img/llamada.png" alt="foto telefono"> +54 9 381 4958878
+                              </p>
+                            <p class="text-white">
+                                 <img src="./img/gmail.png" alt="logo correo"> venta.cel@gmail.com
+                             </p> 
+                       </div>
+      
+                       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+                        <h5 class="letras">REDES SOCIALES</h5>
+                      
+                            <div class="text-center align-content-center">       
+                                <a href="https://www.instagram.com/rollingcodeschool/"><img src="./img/instagram.png" alt="logo instagram"></a>
+                                <a href="https://www.facebook.com/RollingCodeSchool/"><img src="./img/facebook.png" alt="logo facebook"></a>
+                                <a href="https://twitter.com/rollingcodeok"><img src="./img/gorjeo.png" alt="logo twitter"></a>
+                            </div>   
+                     </div>  
+                      
+                </div>
+           </div>
+      
+        </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins' , sans-serif;
+}
+#navbar{
+    z-index: 1;
+    position: fixed;
+    
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+#navbarSupportedContent a{
+    color: white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 1px solid #fcb941 ;
+}
+
+
+
+.imgComentario {
+    border-radius: 50%;
+     min-height: 60px;
+}
+
+.headerComentario {
+    background: #1196be;
+     padding: 9px;
+}
+.comentario {
+    background: rgb(255, 255, 255); margin-bottom: 0;
+}
+
+div .comentario p {
+    margin-bottom: 0;
+}
+
+.footerComentario {
+    background: #fff; padding: 9px;
+}
+
+.footerComentario h5{
+   cursor: pointer;
+}
+
+.footerComentario:hover {
+    border-bottom: 6px solid black;
+}
+
+.likeComentario {
+    height: 15px; width: auto;
+}
+
+.likeComentario:hover {
+    background: red;
+    cursor: pointer;
+}
+.test{
+    padding: 0 !important;
+}
+
+.pagination {
+    color: black;
+}
+
+.letra{
+    color: #fcb941;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.mb50 {
+    margin-bottom: 50px;
+}

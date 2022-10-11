@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins' , sans-serif;
+}
+#navbar{
+    z-index: 1;
+    position: fixed;
+    
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+#navbarSupportedContent a{
+    color: white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 1px solid #fcb941 ;
+}
+
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+.btns{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.btns button{
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button a:hover{
+    color: #fcb941 !important;
+}
+.product-img:hover .btns{
+    bottom: 0;
+}
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+.heart-icon :hover{
+    color: red;
+}
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: #fcb941 !important;
+}
+.product-price{
+    color: #fcb941;
+}
+.product-price2{
+    font-size: 11px;
+}
+.rating{
+    font-size: 13px;
+}
+.product-info{
+    position: relative;
+}
+.discount{
+    color: rgb(129, 9, 129);
+    font-size: 11px;
+}
+.card-body :hover{
+    color: #fcb941;
+}
+.freeshipping{
+    font-size: 13px;
+    color: green;
+}
+.product-cuotas{
+    color: green;
+    font-size: 13px;
+}
+
+.letra{
+    color: #fcb941;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.mb50 {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+#navbarSupportedContent a{
+    color: white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 1px solid #fcb941   ;
+}
+
+/* CONTACTO */
+p{
+    text-align: center;
+    color:black;
+    padding-bottom: 1px;
+      
+}
+#contact{
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background: linear-gradient(#D7DBDD,white);
+    background-repeat: no-repeat;   
+}
+form{
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #222;
+    padding: 10px;
+}
+
+#contact input{
+    margin: 10px 0px;
+
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+.botonenviar{
+    padding: 5px 15px;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0px 5px 0px grey;
+}
+.botonenviar:hover{
+    position: relative;
+    top: 5px;
+    box-shadow: 0px 2px 0px grey;
+}
+
+.letras{
+    color:  #fcb941 ;
+}
